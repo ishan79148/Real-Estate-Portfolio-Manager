@@ -31,7 +31,7 @@ let view_properties = () => {
     } else {
         console.log("💰 List of items:");
         properties.forEach((item, index) => {
-            console.log(`${index + 1}. ${item.location}: ₹${item.price}, ${item.status}`);
+            console.log(`${index + 1}. ${item.location}: ₹${item.price}, $${item.type}, ${item.status}`);
         });
     };
 
